@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+build/
+dist/
+
+# Local app data: Spotify login/session, library DB, queue, logs (never commit)
+spot2rb/data/*
+!spot2rb/data/.gitkeep
+
+# Personal exports
+*.m3u8
+rekordbox*.xml
+
+# Editor / tooling
+.vscode/
+.idea/
